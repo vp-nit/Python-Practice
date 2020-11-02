@@ -222,7 +222,7 @@ while True:
     if player_chips.total > 0:
         print("\nPlayer's winnings stand at", player_chips.total)
     else:
-        print("\nSorry, you lost all the money!\nWould you like a reset?\n")
+        print("\nSorry, you lost all the money!\n\nWould you like a reset?")
         reset = input("Yes - 'y' or No - 'n':")
         if reset[0].lower() == 'y':
             player_chips.total = 500
